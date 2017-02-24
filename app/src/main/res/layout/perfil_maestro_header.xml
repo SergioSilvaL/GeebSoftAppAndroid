@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:padding="24dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/ivUserProfilePhoto"
+
+        android:layout_height="63dp"
+        android:src="@drawable/google_icon"
+        android:layout_width="match_parent"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="John Smith"
+        android:id="@+id/profesor_nombre"
+        android:textColor="@color/material_grey_900"
+        android:textSize="18sp"
+        android:layout_weight="0.02"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:weightSum="1"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:text="@string/number_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_number_likes"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="95dp" />
+
+            <ImageView
+                android:src="@drawable/corazon"
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:id="@+id/imageView10"
+                android:layout_marginEnd="20dp" />
+
+            <TextView
+                android:text="@string/number_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_number_comments"
+                android:layout_marginEnd="5dp" />
+
+            <ImageView
+                android:src="@drawable/comment"
+                android:layout_width="24dp"
+                android:layout_height="19dp"
+                android:id="@+id/imageView11"
+                android:layout_weight="0.02"
+                android:layout_marginEnd="20dp" />
+
+            <TextView
+                android:text="@string/number_suscribers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_number_suscribers"
+                android:layout_marginEnd="5dp" />
+
+            <ImageView
+                android:src="@drawable/suscribirse"
+                android:layout_width="23dp"
+                android:layout_height="19dp"
+                android:id="@+id/imageView12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:text="@string/like"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:id="@+id/btn_perfil_like"
+                android:background="@drawable/roundedbutton"
+                android:layout_marginEnd="25dp"
+                android:textColor="#ffffff"
+                android:layout_marginStart="25dp"
+                android:fontFamily="sans-serif" />
+
+            <Button
+                android:text="@string/suscribe"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:id="@+id/btn_perfil_suscribe"
+                android:background="@drawable/roundedbutton_color_blanco"
+                android:textColor="#34495e"
+                android:fontFamily="sans-serif"
+                android:layout_marginEnd="20dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:clipChildren="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:id="@+id/vUserDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.81"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="\@jsmith"-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="#bbbbbb" />-->
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

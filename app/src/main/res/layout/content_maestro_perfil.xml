@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_maestro_perfil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.tecnologiasintech.geebsoftapp.MaestroPerfil.MaestroPerfilActivity"
+    tools:showIn="@layout/activity_maestro_perfil">
+
+    <include
+        layout="@layout/perfil_maestro_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        ></include>
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_layout"
+        android:layout_weight="1"
+        android:background="@color/colorDivider">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout_Perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minHeight="60dp"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorPrimaryDark"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/colorPrimaryDark"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="#fff"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/PerfilPager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tablayout_Perfil"
+            android:background="#fff"
+            android:layout_marginBottom="2dp">
+        </android.support.v4.view.ViewPager>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

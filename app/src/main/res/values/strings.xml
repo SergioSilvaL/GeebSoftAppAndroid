@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">GeebSoft</string>
+    <string name="facebook_application_id">1770957699825673</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="dialog_cancelar">cancelar</string>
+    <string name="dialog_ok">aceptar</string>
+
+    <string name="cancel_login">Se canceló la operación</string>
+    <string name="error_login">Ocurrió un error al ingresar</string>
+    <!--<string name="facebook_app_id">c47987a23bcab5cfbb3962f061d601c1</string>-->
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="error_invalid_email">
+    Esta dirección de correo electrónico no es válida.</string>
+    <string name="error_invalid_password">Esta contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">
+Esta contraseña es incorrecta</string>
+    <string name="error_field_required">
+Este campo es requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="auth_failed">Error, en Login</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <string name="btn_back">Regresar</string>
+    <string name="btn_reset_password">Restablecer Contraseña</string>
+    <string name="forgot_password_msg">Introduzca su correo para enviarle instrucciones</string>
+    <string name="lbl_forgot_password">Olvidó su contraseña?</string>
+    <string name="hint_email">Email</string>
+    <string name="email_SignUp">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_password_SignUp_Confirmation">
+Confirmar contraseña</string>
+    <string name="SignUpUserName">Nombre de usuario</string>
+    <string name="btn_forgot_password">Olvidaste tu contraseña?</string>
+    <string name="btn_link_to_sign_up">SIGN UP</string>
+    <string name="btn_link_to_sign_in">SIGN IN</string>
+    <string name="btn_continue_with_facebook">
+CONTINÚE CON FACEBOOK</string>
+    <string name="btn_continue_with_google">CONTINÚE CON GOOGLE</string>
+
+    <string name="msj_bienvenido">Bienvenido</string>
+    <string name="txtView_Copyright">Copyright &#169; Tecnologias Intech Inc. All rights reserved</string>
+
+    <string name="title_register">Registrarse</string>
+    <string name="edittext_email">Correo electrónico</string>
+    <string name="edittext_password">Contraseña</string>
+    <string name="title_forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="edittext_username">Nombre de Usuario</string>
+    <string name="edittext_location">Lugar</string>
+    <string name="edittext_birthday">Fecha de naciomiento</string>
+    <string name="minimum_password">
+No cumple la contraseña mínima</string>
+    <string name="title_activity_maestro_perfil">Perfil Profesor</string>
+
+    <string name="comment_date">Justo ahora</string>
+    <string name="like">Me gusta</string>
+    <string name="comment">Comentar</string>
+    <string name="number_likes">0</string>
+    <string name="number_comments">0</string>
+    <string name="number_suscribers">0</string>
+    <string name="suscribe">Suscribirse</string>
+    <string name="title_activity_maestro_perfil_informacion">MaestroPerfilInformacionActivity
+    </string>
+
+
+</resources>
